@@ -1,4 +1,4 @@
-#### 1. Element, Node, HTMLElement, EventTarget 类型关系
+#### Element, Node, HTMLElement, EventTarget 类型关系
 > Basically EventTarget is the most general type, of which Element is a subtype, and HTMLElement is a subtype of that. If you get back a thing from the DOM, we generally have no idea which it is, and you should add a type assertion to "add in" the specific external knowledge that you have about the structure of your particular DOM layout.
 
 是说EventTarget是最基础的类型，Element是其的子类型，HTMLElement是Element的子类型。在不确定类型的时候，可以使用类型断言(有点类似类型转换，将父类型转换成子类型，才可以调用子类型上的方法)
@@ -31,3 +31,5 @@ constructor() {
     };
 }
 ```
+参考链接
+>[https://github.com/Microsoft/TypeScript/issues/15394](https://github.com/Microsoft/TypeScript/issues/15394)
