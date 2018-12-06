@@ -28,6 +28,7 @@ class Maths {
         return a + b;
     }
 }
+//target 原型对象
 function log(target, name) {
     let patchedFn, fn;
     /* 若此时获取Object.getOwnPropertyDescriptor(target, name), 因为add是class fileds(Class fields are just assigned to this in constructor.) (class field because it doesn't exist on class prototype)
