@@ -1,0 +1,920 @@
+
+Error detected while processing function <SNR>7_BMShow:
+line   12:
+E329: No menu "&Buffers"
+Error detected while processing function <SNR>7_BMShow:
+line   14:
+E328: Menu only exists in another mode
+  1: /Applications/MacVim.app/Contents/Resources/vim/vimrc
+  2: ~/.vimrc
+  3: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+  4: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+  5: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+  6: /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+  7: /Applications/MacVim.app/Contents/Resources/vim/runtime/menu.vim
+  8: /Applications/MacVim.app/Contents/Resources/vim/runtime/autoload/paste.vim
+  9: ~/.vim/colors/molokai.vim
+ 10: ~/.vimrc.bundles
+ 11: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftoff.vim
+ 12: ~/.vimpkg/bundle/vundle/autoload/vundle.vim
+ 13: ~/.vimpkg/bundle/vundle/autoload/vundle/config.vim
+ 14: ~/.vimpkg/bundle/potion/ftdetect/potion.vim
+ 15: ~/.vimpkg/bundle/typescript-vim/ftdetect/typescript.vim
+ 16: ~/.vimpkg/bundle/vim-jsx-typescript/ftdetect/typescript.vim
+ 17: ~/.vimpkg/bundle/tsuquyomi/ftdetect/typescript.vim
+ 18: ~/.vimpkg/bundle/vim-json/ftdetect/json.vim
+ 19: ~/.vimpkg/bundle/tern_for_vim/ftdetect/tern.vim
+ 20: ~/.vimpkg/bundle/vim-markdown/ftdetect/markdown.vim
+ 21: ~/.vimpkg/bundle/ultisnips/ftdetect/snippets.vim
+ 22: ~/.vimpkg/bundle/nginx.vim/ftdetect/nginx.vim
+ 23: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+ 24: /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+ 25: ~/.vimpkg/bundle/vim-google-translate/plugin/gt.vim
+ 26: ~/.vimpkg/bundle/vim-youdao-translater/plugin/ydt.vim
+ 27: ~/.vimpkg/bundle/vim-commentary/plugin/commentary.vim
+ 28: ~/.vimpkg/bundle/nerdtree/plugin/NERD_tree.vim
+ 29: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree.vim
+ 30: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/path.vim
+ 31: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_controller.vim
+ 32: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_item.vim
+ 33: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/key_map.vim
+ 34: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/bookmark.vim
+ 35: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_file_node.vim
+ 36: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim
+ 37: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/opener.vim
+ 38: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/creator.vim
+ 39: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/flag_set.vim
+ 40: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/nerdtree.vim
+ 41: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/ui.vim
+ 42: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/event.vim
+ 43: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/notifier.vim
+ 44: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree/ui_glue.vim
+ 45: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim
+ 46: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/fs_menu.vim
+ 47: ~/.vimpkg/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+ 48: ~/.vimpkg/bundle/matchit/plugin/matchit.vim
+ 49: ~/.vimpkg/bundle/vim-surround/plugin/surround.vim
+ 50: ~/.vimpkg/bundle/auto-pairs/plugin/auto-pairs.vim
+ 51: ~/.vimpkg/bundle/ctrlp-funky/plugin/funky.vim
+ 52: ~/.vimpkg/bundle/SimpylFold/plugin/SimpylFold.vim
+ 53: ~/.vimpkg/bundle/ctrlp.vim/plugin/ctrlp.vim
+ 54: ~/.vimpkg/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+ 55: ~/.vimpkg/bundle/ctrlsf.vim/plugin/ctrlsf.vim
+ 56: ~/.vimpkg/bundle/ctrlsf.vim/autoload/ctrlsf/backend.vim
+ 57: ~/.vimpkg/bundle/vim-textobj-lastpat/plugin/textobj/lastpat.vim
+ 58: ~/.vimpkg/bundle/vim-textobj-user/autoload/textobj/user.vim
+  1: /Applications/MacVim.app/Contents/Resources/vim/vimrc
+  2: ~/.vimrc
+  3: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+  4: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+  5: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+  6: /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+  7: /Applications/MacVim.app/Contents/Resources/vim/runtime/menu.vim
+  8: /Applications/MacVim.app/Contents/Resources/vim/runtime/autoload/paste.vim
+  9: ~/.vim/colors/molokai.vim
+ 10: ~/.vimrc.bundles
+ 11: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftoff.vim
+ 12: ~/.vimpkg/bundle/vundle/autoload/vundle.vim
+ 13: ~/.vimpkg/bundle/vundle/autoload/vundle/config.vim
+ 14: ~/.vimpkg/bundle/potion/ftdetect/potion.vim
+ 15: ~/.vimpkg/bundle/typescript-vim/ftdetect/typescript.vim
+ 16: ~/.vimpkg/bundle/vim-jsx-typescript/ftdetect/typescript.vim
+ 17: ~/.vimpkg/bundle/tsuquyomi/ftdetect/typescript.vim
+ 18: ~/.vimpkg/bundle/vim-json/ftdetect/json.vim
+ 19: ~/.vimpkg/bundle/tern_for_vim/ftdetect/tern.vim
+ 20: ~/.vimpkg/bundle/vim-markdown/ftdetect/markdown.vim
+ 21: ~/.vimpkg/bundle/ultisnips/ftdetect/snippets.vim
+ 22: ~/.vimpkg/bundle/nginx.vim/ftdetect/nginx.vim
+ 23: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+ 24: /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+ 25: ~/.vimpkg/bundle/vim-google-translate/plugin/gt.vim
+ 26: ~/.vimpkg/bundle/vim-youdao-translater/plugin/ydt.vim
+ 27: ~/.vimpkg/bundle/vim-commentary/plugin/commentary.vim
+ 28: ~/.vimpkg/bundle/nerdtree/plugin/NERD_tree.vim
+ 29: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree.vim
+ 30: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/path.vim
+ 31: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_controller.vim
+ 32: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_item.vim
+ 33: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/key_map.vim
+ 34: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/bookmark.vim
+ 35: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_file_node.vim
+ 36: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim
+ 37: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/opener.vim
+ 38: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/creator.vim
+ 39: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/flag_set.vim
+ 40: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/nerdtree.vim
+ 41: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/ui.vim
+ 42: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/event.vim
+ 43: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/notifier.vim
+ 44: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree/ui_glue.vim
+ 45: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim
+ 46: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/fs_menu.vim
+ 47: ~/.vimpkg/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+ 48: ~/.vimpkg/bundle/matchit/plugin/matchit.vim
+ 49: ~/.vimpkg/bundle/vim-surround/plugin/surround.vim
+ 50: ~/.vimpkg/bundle/auto-pairs/plugin/auto-pairs.vim
+ 51: ~/.vimpkg/bundle/ctrlp-funky/plugin/funky.vim
+ 52: ~/.vimpkg/bundle/SimpylFold/plugin/SimpylFold.vim
+ 53: ~/.vimpkg/bundle/ctrlp.vim/plugin/ctrlp.vim
+ 54: ~/.vimpkg/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+ 55: ~/.vimpkg/bundle/ctrlsf.vim/plugin/ctrlsf.vim
+ 56: ~/.vimpkg/bundle/ctrlsf.vim/autoload/ctrlsf/backend.vim
+ 57: ~/.vimpkg/bundle/vim-textobj-lastpat/plugin/textobj/lastpat.vim
+ 58: ~/.vimpkg/bundle/vim-textobj-user/autoload/textobj/user.vim
+Error detected while processing function <SNR>99_map_if_not_mapped:
+line    3:
+E227: mapping already exists for 	
+Error detected while processing function <SNR>99_map_if_not_mapped:
+line    3:
+E227: mapping already exists for 	
+Error detected while processing function <SNR>99_map_if_not_mapped:
+line    3:
+E227: mapping already exists for 	
+NERDTree: No trees to mirror
+Error detected while processing function <SNR>7_BMRemove:
+line    9:
+E329: No menu "NERD_tree_1 (2)	~/Documents/person/git/learning"
+6 more lines
+No matching autocommands
+
+11 fewer lines
+9 more lines
+
+14 fewer lines
+12 more lines
+
+17 fewer lines
+15 more lines
+
+"问题.md" 
+"问题.md" 75L, 3780C
+No matching autocommands
+SignColumn     xxx term=standout ctermfg=11 ctermbg=8 guifg=#A6E22E guibg=#232526
+--- Signs ---
+
+No matching autocommands
+
+20 fewer lines
+35 more lines
+
+40 fewer lines
+15 more lines-- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL --
+
+"deploy_node.sh" 
+"deploy_node.sh" 37L, 1134C
+No matching autocommands
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"Dockerfile" 
+"Dockerfile" 17L, 324C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"Dockerfile" 
+"Dockerfile" 32L, 1079C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"问题.md" 
+"问题.md" 75L, 3780C
+No matching autocommands
+--- Signs ---
+Signs for 问题.md:
+    line=1  id=1000000  name=ALEDummySign
+
+No matching autocommands
+
+
+
+20 fewer lines
+35 more lines
+
+40 fewer lines
+15 more lines
+
+20 fewer lines
+35 more lines
+
+NERDTree Menu. Use j/k/enter and the shortcuts indicated
+==========================================================
+> (a)dd a childnode
+  (m)ove the current node
+  (d)elete the current node
+  (r)eveal in Finder the current node
+  (o)pen the current node with system editor
+  (q)uicklook the current node
+  (c)opy the current node
+  (l)ist the current node
+Error detected while processing function <SNR>7_BMShow:
+line   12:
+E329: No menu "&Buffers"
+Error detected while processing function <SNR>7_BMShow:
+line   14:
+E328: Menu only exists in another mode
+  1: /Applications/MacVim.app/Contents/Resources/vim/vimrc
+  2: ~/.vimrc
+  3: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+  4: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+  5: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+  6: /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+  7: /Applications/MacVim.app/Contents/Resources/vim/runtime/menu.vim
+  8: /Applications/MacVim.app/Contents/Resources/vim/runtime/autoload/paste.vim
+  9: ~/.vim/colors/molokai.vim
+ 10: ~/.vimrc.bundles
+ 11: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftoff.vim
+ 12: ~/.vimpkg/bundle/vundle/autoload/vundle.vim
+ 13: ~/.vimpkg/bundle/vundle/autoload/vundle/config.vim
+ 14: ~/.vimpkg/bundle/typescript-vim/ftdetect/typescript.vim
+ 15: ~/.vimpkg/bundle/vim-jsx-typescript/ftdetect/typescript.vim
+ 16: ~/.vimpkg/bundle/tsuquyomi/ftdetect/typescript.vim
+ 17: ~/.vimpkg/bundle/vim-jsx/ftdetect/javascript.vim
+ 18: ~/.vimpkg/bundle/vim-json/ftdetect/json.vim
+ 19: ~/.vimpkg/bundle/tern_for_vim/ftdetect/tern.vim
+ 20: ~/.vimpkg/bundle/vim-markdown/ftdetect/markdown.vim
+ 21: ~/.vimpkg/bundle/ultisnips/ftdetect/snippets.vim
+ 22: ~/.vimpkg/bundle/nginx.vim/ftdetect/nginx.vim
+ 23: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+ 24: /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+ 25: ~/.vimpkg/bundle/vim-google-translate/plugin/gt.vim
+ 26: ~/.vimpkg/bundle/vim-youdao-translater/plugin/ydt.vim
+ 27: ~/.vimpkg/bundle/vim-commentary/plugin/commentary.vim
+ 28: ~/.vimpkg/bundle/nerdtree/plugin/NERD_tree.vim
+ 29: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree.vim
+ 30: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/path.vim
+ 31: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_controller.vim
+ 32: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_item.vim
+ 33: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/key_map.vim
+ 34: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/bookmark.vim
+ 35: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_file_node.vim
+ 36: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim
+ 37: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/opener.vim
+ 38: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/creator.vim
+ 39: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/flag_set.vim
+ 40: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/nerdtree.vim
+ 41: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/ui.vim
+ 42: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/event.vim
+ 43: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/notifier.vim
+ 44: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree/ui_glue.vim
+ 45: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim
+ 46: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/fs_menu.vim
+ 47: ~/.vimpkg/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+ 48: ~/.vimpkg/bundle/matchit/plugin/matchit.vim
+ 49: ~/.vimpkg/bundle/vim-surround/plugin/surround.vim
+ 50: ~/.vimpkg/bundle/auto-pairs/plugin/auto-pairs.vim
+ 51: ~/.vimpkg/bundle/ctrlp-funky/plugin/funky.vim
+ 52: ~/.vimpkg/bundle/SimpylFold/plugin/SimpylFold.vim
+ 53: ~/.vimpkg/bundle/ctrlp.vim/plugin/ctrlp.vim
+ 54: ~/.vimpkg/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+ 55: ~/.vimpkg/bundle/ctrlsf.vim/plugin/ctrlsf.vim
+ 56: ~/.vimpkg/bundle/ctrlsf.vim/autoload/ctrlsf/backend.vim
+ 57: ~/.vimpkg/bundle/vim-textobj-lastpat/plugin/textobj/lastpat.vim
+ 58: ~/.vimpkg/bundle/vim-textobj-user/autoload/textobj/user.vim
+  1: /Applications/MacVim.app/Contents/Resources/vim/vimrc
+  2: ~/.vimrc
+  3: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+  4: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+  5: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+  6: /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+  7: /Applications/MacVim.app/Contents/Resources/vim/runtime/menu.vim
+  8: /Applications/MacVim.app/Contents/Resources/vim/runtime/autoload/paste.vim
+  9: ~/.vim/colors/molokai.vim
+ 10: ~/.vimrc.bundles
+ 11: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftoff.vim
+ 12: ~/.vimpkg/bundle/vundle/autoload/vundle.vim
+ 13: ~/.vimpkg/bundle/vundle/autoload/vundle/config.vim
+ 14: ~/.vimpkg/bundle/typescript-vim/ftdetect/typescript.vim
+ 15: ~/.vimpkg/bundle/vim-jsx-typescript/ftdetect/typescript.vim
+ 16: ~/.vimpkg/bundle/tsuquyomi/ftdetect/typescript.vim
+ 17: ~/.vimpkg/bundle/vim-jsx/ftdetect/javascript.vim
+ 18: ~/.vimpkg/bundle/vim-json/ftdetect/json.vim
+ 19: ~/.vimpkg/bundle/tern_for_vim/ftdetect/tern.vim
+ 20: ~/.vimpkg/bundle/vim-markdown/ftdetect/markdown.vim
+ 21: ~/.vimpkg/bundle/ultisnips/ftdetect/snippets.vim
+ 22: ~/.vimpkg/bundle/nginx.vim/ftdetect/nginx.vim
+ 23: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+ 24: /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+ 25: ~/.vimpkg/bundle/vim-google-translate/plugin/gt.vim
+ 26: ~/.vimpkg/bundle/vim-youdao-translater/plugin/ydt.vim
+ 27: ~/.vimpkg/bundle/vim-commentary/plugin/commentary.vim
+ 28: ~/.vimpkg/bundle/nerdtree/plugin/NERD_tree.vim
+ 29: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree.vim
+ 30: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/path.vim
+ 31: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_controller.vim
+ 32: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_item.vim
+ 33: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/key_map.vim
+ 34: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/bookmark.vim
+ 35: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_file_node.vim
+ 36: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim
+ 37: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/opener.vim
+ 38: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/creator.vim
+ 39: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/flag_set.vim
+ 40: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/nerdtree.vim
+ 41: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/ui.vim
+ 42: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/event.vim
+ 43: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/notifier.vim
+ 44: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree/ui_glue.vim
+ 45: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim
+ 46: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/fs_menu.vim
+ 47: ~/.vimpkg/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+ 48: ~/.vimpkg/bundle/matchit/plugin/matchit.vim
+ 49: ~/.vimpkg/bundle/vim-surround/plugin/surround.vim
+ 50: ~/.vimpkg/bundle/auto-pairs/plugin/auto-pairs.vim
+ 51: ~/.vimpkg/bundle/ctrlp-funky/plugin/funky.vim
+ 52: ~/.vimpkg/bundle/SimpylFold/plugin/SimpylFold.vim
+ 53: ~/.vimpkg/bundle/ctrlp.vim/plugin/ctrlp.vim
+ 54: ~/.vimpkg/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+ 55: ~/.vimpkg/bundle/ctrlsf.vim/plugin/ctrlsf.vim
+ 56: ~/.vimpkg/bundle/ctrlsf.vim/autoload/ctrlsf/backend.vim
+ 57: ~/.vimpkg/bundle/vim-textobj-lastpat/plugin/textobj/lastpat.vim
+ 58: ~/.vimpkg/bundle/vim-textobj-user/autoload/textobj/user.vim
+Error detected while processing function <SNR>99_map_if_not_mapped:
+line    3:
+E227: mapping already exists for 	
+Error detected while processing function <SNR>99_map_if_not_mapped:
+line    3:
+E227: mapping already exists for 	
+Error detected while processing function <SNR>99_map_if_not_mapped:
+line    3:
+E227: mapping already exists for 	
+NERDTree: No trees to mirror
+Error detected while processing function <SNR>7_BMRemove:
+line    9:
+E329: No menu "NERD_tree_1 (2)	~/Documents/person/git/learning"
+6 more lines
+No matching autocommands
+
+11 fewer lines
+23 more lines
+
+"interface.md" 
+"interface.md" 36L, 1510C
+No matching autocommands
+SignColumn     xxx term=standout ctermfg=11 ctermbg=8 guifg=#A6E22E guibg=#232526
+--- Signs ---
+
+No matching autocommands
+
+
+
+
+
+"decorator.md" 
+"decorator.md" 57L, 2216C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+
+"EventTarget.md" 
+"EventTarget.md" 35L, 1616C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+
+"decorator.md" 
+"decorator.md" 57L, 2216C
+No matching autocommands
+--- Signs ---
+Signs for decorator.md:
+    line=1  id=1000000  name=ALEDummySign
+
+No matching autocommands
+
+
+"interface.md" 
+"interface.md" 36L, 1510C
+No matching autocommands
+--- Signs ---
+Signs for interface.md:
+    line=1  id=1000000  name=ALEDummySign
+
+No matching autocommands
+
+
+
+
+"映射类型.md" 
+"映射类型.md" 37L, 1100C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"模块解析.md" 
+"模块解析.md" 13L, 417C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"泛型理解.md" 
+"泛型理解.md" 8L, 561C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"签名.md" 
+"签名.md" 36L, 981C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"类型.md" 
+"类型.md" 2L, 162C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"类型保护.md" 
+"类型保护.md" 104L, 3589C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"类型运算.md" 
+"类型运算.md" 41L, 2418C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"编译选项.md" 
+"编译选项.md" 1L, 189C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"问题.md" 
+"问题.md" 11L, 712C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"blog.md" 
+"blog.md" 3L, 147C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"decorator.md" 
+"decorator.md" 57L, 2216C
+No matching autocommands
+--- Signs ---
+Signs for decorator.md:
+    line=1  id=1000000  name=ALEDummySign
+
+No matching autocommands
+
+"EventTarget.md" 
+"EventTarget.md" 35L, 1616C
+No matching autocommands
+--- Signs ---
+Signs for EventTarget.md:
+    line=1  id=1000000  name=ALEDummySign
+
+No matching autocommands
+
+"interface.md" 
+"interface.md" 36L, 1510C
+No matching autocommands
+--- Signs ---
+Signs for interface.md:
+    line=1  id=1000000  name=ALEDummySign
+
+No matching autocommands
+
+"keyof.md" 
+"keyof.md" 22L, 706C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"namespace.md" 
+"namespace.md" 47L, 1583C
+No matching autocommands
+--- Signs ---
+
+No matching autocommands
+
+"interface.md" 
+"interface.md" 36L, 1510C
+No matching autocommands
+--- Signs ---
+Signs for interface.md:
+    line=1  id=1000000  name=ALEDummySign
+
+No matching autocommands
+
+
+"EventTarget.md" 
+"EventTarget.md" 35L, 1616C
+No matching autocommands
+--- Signs ---
+Signs for EventTarget.md:
+    line=1  id=1000000  name=ALEDummySign
+
+No matching autocommands
+
+
+"decorator.md" 
+"decorator.md" 57L, 2216C
+No matching autocommands
+--- Signs ---
+Signs for decorator.md:
+    line=1  id=1000000  name=ALEDummySign
+
+No matching autocommands
+
+
+"interface.md" 
+"interface.md" 36L, 1510C
+No matching autocommands
+--- Signs ---
+Signs for interface.md:
+    line=1  id=1000000  name=ALEDummySign
+
+No matching autocommands
+
+
+"decorator.md" 
+"decorator.md" 57L, 2216C
+No matching autocommands
+--- Signs ---
+Signs for decorator.md:
+    line=1  id=1000000  name=ALEDummySign
+
+No matching autocommands
+Error detected while processing function <SNR>7_BMShow:
+line   12:
+E329: No menu "&Buffers"
+Error detected while processing function <SNR>7_BMShow:
+line   14:
+E328: Menu only exists in another mode
+  1: /Applications/MacVim.app/Contents/Resources/vim/vimrc
+  2: ~/.vimrc
+  3: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+  4: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+  5: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+  6: /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+  7: /Applications/MacVim.app/Contents/Resources/vim/runtime/menu.vim
+  8: /Applications/MacVim.app/Contents/Resources/vim/runtime/autoload/paste.vim
+  9: ~/.vim/colors/molokai.vim
+ 10: ~/.vimrc.bundles
+ 11: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftoff.vim
+ 12: ~/.vimpkg/bundle/vundle/autoload/vundle.vim
+ 13: ~/.vimpkg/bundle/vundle/autoload/vundle/config.vim
+ 14: ~/.vimpkg/bundle/typescript-vim/ftdetect/typescript.vim
+ 15: ~/.vimpkg/bundle/vim-jsx-typescript/ftdetect/typescript.vim
+ 16: ~/.vimpkg/bundle/tsuquyomi/ftdetect/typescript.vim
+ 17: ~/.vimpkg/bundle/vim-jsx/ftdetect/javascript.vim
+ 18: ~/.vimpkg/bundle/vim-json/ftdetect/json.vim
+ 19: ~/.vimpkg/bundle/tern_for_vim/ftdetect/tern.vim
+ 20: ~/.vimpkg/bundle/vim-markdown/ftdetect/markdown.vim
+ 21: ~/.vimpkg/bundle/ultisnips/ftdetect/snippets.vim
+ 22: ~/.vimpkg/bundle/nginx.vim/ftdetect/nginx.vim
+ 23: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+ 24: /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+ 25: ~/.vimpkg/bundle/vim-google-translate/plugin/gt.vim
+ 26: ~/.vimpkg/bundle/vim-youdao-translater/plugin/ydt.vim
+ 27: ~/.vimpkg/bundle/vim-commentary/plugin/commentary.vim
+ 28: ~/.vimpkg/bundle/nerdtree/plugin/NERD_tree.vim
+ 29: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree.vim
+ 30: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/path.vim
+ 31: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_controller.vim
+ 32: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_item.vim
+ 33: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/key_map.vim
+ 34: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/bookmark.vim
+ 35: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_file_node.vim
+ 36: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim
+ 37: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/opener.vim
+ 38: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/creator.vim
+ 39: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/flag_set.vim
+ 40: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/nerdtree.vim
+ 41: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/ui.vim
+ 42: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/event.vim
+ 43: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/notifier.vim
+ 44: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree/ui_glue.vim
+ 45: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim
+ 46: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/fs_menu.vim
+ 47: ~/.vimpkg/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+ 48: ~/.vimpkg/bundle/matchit/plugin/matchit.vim
+ 49: ~/.vimpkg/bundle/vim-surround/plugin/surround.vim
+ 50: ~/.vimpkg/bundle/auto-pairs/plugin/auto-pairs.vim
+ 51: ~/.vimpkg/bundle/ctrlp-funky/plugin/funky.vim
+ 52: ~/.vimpkg/bundle/SimpylFold/plugin/SimpylFold.vim
+ 53: ~/.vimpkg/bundle/ctrlp.vim/plugin/ctrlp.vim
+ 54: ~/.vimpkg/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+ 55: ~/.vimpkg/bundle/ctrlsf.vim/plugin/ctrlsf.vim
+ 56: ~/.vimpkg/bundle/ctrlsf.vim/autoload/ctrlsf/backend.vim
+ 57: ~/.vimpkg/bundle/vim-textobj-lastpat/plugin/textobj/lastpat.vim
+ 58: ~/.vimpkg/bundle/vim-textobj-user/autoload/textobj/user.vim
+  1: /Applications/MacVim.app/Contents/Resources/vim/vimrc
+  2: ~/.vimrc
+  3: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+  4: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+  5: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+  6: /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+  7: /Applications/MacVim.app/Contents/Resources/vim/runtime/menu.vim
+  8: /Applications/MacVim.app/Contents/Resources/vim/runtime/autoload/paste.vim
+  9: ~/.vim/colors/molokai.vim
+ 10: ~/.vimrc.bundles
+ 11: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftoff.vim
+ 12: ~/.vimpkg/bundle/vundle/autoload/vundle.vim
+ 13: ~/.vimpkg/bundle/vundle/autoload/vundle/config.vim
+ 14: ~/.vimpkg/bundle/typescript-vim/ftdetect/typescript.vim
+ 15: ~/.vimpkg/bundle/vim-jsx-typescript/ftdetect/typescript.vim
+ 16: ~/.vimpkg/bundle/tsuquyomi/ftdetect/typescript.vim
+ 17: ~/.vimpkg/bundle/vim-jsx/ftdetect/javascript.vim
+ 18: ~/.vimpkg/bundle/vim-json/ftdetect/json.vim
+ 19: ~/.vimpkg/bundle/tern_for_vim/ftdetect/tern.vim
+ 20: ~/.vimpkg/bundle/vim-markdown/ftdetect/markdown.vim
+ 21: ~/.vimpkg/bundle/ultisnips/ftdetect/snippets.vim
+ 22: ~/.vimpkg/bundle/nginx.vim/ftdetect/nginx.vim
+ 23: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+ 24: /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+ 25: ~/.vimpkg/bundle/vim-google-translate/plugin/gt.vim
+ 26: ~/.vimpkg/bundle/vim-youdao-translater/plugin/ydt.vim
+ 27: ~/.vimpkg/bundle/vim-commentary/plugin/commentary.vim
+ 28: ~/.vimpkg/bundle/nerdtree/plugin/NERD_tree.vim
+ 29: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree.vim
+ 30: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/path.vim
+ 31: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_controller.vim
+ 32: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_item.vim
+ 33: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/key_map.vim
+ 34: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/bookmark.vim
+ 35: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_file_node.vim
+ 36: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim
+ 37: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/opener.vim
+ 38: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/creator.vim
+ 39: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/flag_set.vim
+ 40: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/nerdtree.vim
+ 41: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/ui.vim
+ 42: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/event.vim
+ 43: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/notifier.vim
+ 44: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree/ui_glue.vim
+ 45: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim
+ 46: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/fs_menu.vim
+ 47: ~/.vimpkg/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+ 48: ~/.vimpkg/bundle/matchit/plugin/matchit.vim
+ 49: ~/.vimpkg/bundle/vim-surround/plugin/surround.vim
+ 50: ~/.vimpkg/bundle/auto-pairs/plugin/auto-pairs.vim
+ 51: ~/.vimpkg/bundle/ctrlp-funky/plugin/funky.vim
+ 52: ~/.vimpkg/bundle/SimpylFold/plugin/SimpylFold.vim
+ 53: ~/.vimpkg/bundle/ctrlp.vim/plugin/ctrlp.vim
+ 54: ~/.vimpkg/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+ 55: ~/.vimpkg/bundle/ctrlsf.vim/plugin/ctrlsf.vim
+ 56: ~/.vimpkg/bundle/ctrlsf.vim/autoload/ctrlsf/backend.vim
+ 57: ~/.vimpkg/bundle/vim-textobj-lastpat/plugin/textobj/lastpat.vim
+ 58: ~/.vimpkg/bundle/vim-textobj-user/autoload/textobj/user.vim
+Error detected while processing function <SNR>99_map_if_not_mapped:
+line    3:
+E227: mapping already exists for 	
+Error detected while processing function <SNR>99_map_if_not_mapped:
+line    3:
+E227: mapping already exists for 	
+Error detected while processing function <SNR>99_map_if_not_mapped:
+line    3:
+E227: mapping already exists for 	
+NERDTree: No trees to mirror
+Error detected while processing function <SNR>7_BMRemove:
+line    9:
+E329: No menu "NERD_tree_1 (2)	~/Documents/person/git/learning"
+6 more lines
+No matching autocommands
+
+11 fewer lines
+23 more lines
+
+"interface.md" 
+"interface.md" 36L, 1510C
+No matching autocommands
+SignColumn     xxx term=standout ctermfg=11 ctermbg=8 guifg=#A6E22E guibg=#232526
+--- Signs ---
+
+No matching autocommands-- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL ---- VISUAL --
+
+"interface.md" 
+"interface.md" 36L, 1510C written
+No matching autocommands
+--- Signs ---
+Signs for interface.md:
+    line=1  id=1000000  name=ALEDummySign
+
+No matching autocommands
+"interface.md" 36L, 1510C written
+
+"interface.md" 
+"interface.md" 36L, 1510C written
+No matching autocommands
+--- Signs ---
+Signs for interface.md:
+    line=1  id=1000000  name=ALEDummySign
+
+No matching autocommands
+"interface.md" 36L, 1510C written
+
+"interface.md" 
+"interface.md" 36L, 1510C written
+No matching autocommands
+--- Signs ---
+Signs for interface.md:
+    line=1  id=1000000  name=ALEDummySign
+
+No matching autocommands
+"interface.md" 36L, 1510C written
+Error detected while processing function <SNR>7_BMShow:
+line   12:
+E329: No menu "&Buffers"
+Error detected while processing function <SNR>7_BMShow:
+line   14:
+E328: Menu only exists in another mode
+  1: /Applications/MacVim.app/Contents/Resources/vim/vimrc
+  2: ~/.vimrc
+  3: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+  4: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+  5: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+  6: /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+  7: /Applications/MacVim.app/Contents/Resources/vim/runtime/menu.vim
+  8: /Applications/MacVim.app/Contents/Resources/vim/runtime/autoload/paste.vim
+  9: ~/.vim/colors/molokai.vim
+ 10: ~/.vimrc.bundles
+ 11: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftoff.vim
+ 12: ~/.vimpkg/bundle/vundle/autoload/vundle.vim
+ 13: ~/.vimpkg/bundle/vundle/autoload/vundle/config.vim
+ 14: ~/.vimpkg/bundle/typescript-vim/ftdetect/typescript.vim
+ 15: ~/.vimpkg/bundle/vim-jsx-typescript/ftdetect/typescript.vim
+ 16: ~/.vimpkg/bundle/tsuquyomi/ftdetect/typescript.vim
+ 17: ~/.vimpkg/bundle/vim-jsx/ftdetect/javascript.vim
+ 18: ~/.vimpkg/bundle/vim-json/ftdetect/json.vim
+ 19: ~/.vimpkg/bundle/tern_for_vim/ftdetect/tern.vim
+ 20: ~/.vimpkg/bundle/vim-markdown/ftdetect/markdown.vim
+ 21: ~/.vimpkg/bundle/ultisnips/ftdetect/snippets.vim
+ 22: ~/.vimpkg/bundle/nginx.vim/ftdetect/nginx.vim
+ 23: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+ 24: /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+ 25: ~/.vimpkg/bundle/vim-google-translate/plugin/gt.vim
+ 26: ~/.vimpkg/bundle/vim-youdao-translater/plugin/ydt.vim
+ 27: ~/.vimpkg/bundle/vim-commentary/plugin/commentary.vim
+ 28: ~/.vimpkg/bundle/nerdtree/plugin/NERD_tree.vim
+ 29: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree.vim
+ 30: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/path.vim
+ 31: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_controller.vim
+ 32: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_item.vim
+ 33: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/key_map.vim
+ 34: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/bookmark.vim
+ 35: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_file_node.vim
+ 36: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim
+ 37: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/opener.vim
+ 38: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/creator.vim
+ 39: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/flag_set.vim
+ 40: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/nerdtree.vim
+ 41: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/ui.vim
+ 42: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/event.vim
+ 43: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/notifier.vim
+ 44: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree/ui_glue.vim
+ 45: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim
+ 46: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/fs_menu.vim
+ 47: ~/.vimpkg/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+ 48: ~/.vimpkg/bundle/matchit/plugin/matchit.vim
+ 49: ~/.vimpkg/bundle/vim-surround/plugin/surround.vim
+ 50: ~/.vimpkg/bundle/auto-pairs/plugin/auto-pairs.vim
+ 51: ~/.vimpkg/bundle/ctrlp-funky/plugin/funky.vim
+ 52: ~/.vimpkg/bundle/SimpylFold/plugin/SimpylFold.vim
+ 53: ~/.vimpkg/bundle/ctrlp.vim/plugin/ctrlp.vim
+ 54: ~/.vimpkg/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+ 55: ~/.vimpkg/bundle/ctrlsf.vim/plugin/ctrlsf.vim
+ 56: ~/.vimpkg/bundle/ctrlsf.vim/autoload/ctrlsf/backend.vim
+ 57: ~/.vimpkg/bundle/vim-textobj-lastpat/plugin/textobj/lastpat.vim
+ 58: ~/.vimpkg/bundle/vim-textobj-user/autoload/textobj/user.vim
+  1: /Applications/MacVim.app/Contents/Resources/vim/vimrc
+  2: ~/.vimrc
+  3: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+  4: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+  5: /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+  6: /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+  7: /Applications/MacVim.app/Contents/Resources/vim/runtime/menu.vim
+  8: /Applications/MacVim.app/Contents/Resources/vim/runtime/autoload/paste.vim
+  9: ~/.vim/colors/molokai.vim
+ 10: ~/.vimrc.bundles
+ 11: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftoff.vim
+ 12: ~/.vimpkg/bundle/vundle/autoload/vundle.vim
+ 13: ~/.vimpkg/bundle/vundle/autoload/vundle/config.vim
+ 14: ~/.vimpkg/bundle/typescript-vim/ftdetect/typescript.vim
+ 15: ~/.vimpkg/bundle/vim-jsx-typescript/ftdetect/typescript.vim
+ 16: ~/.vimpkg/bundle/tsuquyomi/ftdetect/typescript.vim
+ 17: ~/.vimpkg/bundle/vim-jsx/ftdetect/javascript.vim
+ 18: ~/.vimpkg/bundle/vim-json/ftdetect/json.vim
+ 19: ~/.vimpkg/bundle/tern_for_vim/ftdetect/tern.vim
+ 20: ~/.vimpkg/bundle/vim-markdown/ftdetect/markdown.vim
+ 21: ~/.vimpkg/bundle/ultisnips/ftdetect/snippets.vim
+ 22: ~/.vimpkg/bundle/nginx.vim/ftdetect/nginx.vim
+ 23: /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+ 24: /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+ 25: ~/.vimpkg/bundle/vim-google-translate/plugin/gt.vim
+ 26: ~/.vimpkg/bundle/vim-youdao-translater/plugin/ydt.vim
+ 27: ~/.vimpkg/bundle/vim-commentary/plugin/commentary.vim
+ 28: ~/.vimpkg/bundle/nerdtree/plugin/NERD_tree.vim
+ 29: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree.vim
+ 30: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/path.vim
+ 31: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_controller.vim
+ 32: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/menu_item.vim
+ 33: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/key_map.vim
+ 34: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/bookmark.vim
+ 35: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_file_node.vim
+ 36: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim
+ 37: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/opener.vim
+ 38: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/creator.vim
+ 39: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/flag_set.vim
+ 40: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/nerdtree.vim
+ 41: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/ui.vim
+ 42: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/event.vim
+ 43: ~/.vimpkg/bundle/nerdtree/lib/nerdtree/notifier.vim
+ 44: ~/.vimpkg/bundle/nerdtree/autoload/nerdtree/ui_glue.vim
+ 45: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim
+ 46: ~/.vimpkg/bundle/nerdtree/nerdtree_plugin/fs_menu.vim
+ 47: ~/.vimpkg/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+ 48: ~/.vimpkg/bundle/matchit/plugin/matchit.vim
+ 49: ~/.vimpkg/bundle/vim-surround/plugin/surround.vim
+ 50: ~/.vimpkg/bundle/auto-pairs/plugin/auto-pairs.vim
+ 51: ~/.vimpkg/bundle/ctrlp-funky/plugin/funky.vim
+ 52: ~/.vimpkg/bundle/SimpylFold/plugin/SimpylFold.vim
+ 53: ~/.vimpkg/bundle/ctrlp.vim/plugin/ctrlp.vim
+ 54: ~/.vimpkg/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+ 55: ~/.vimpkg/bundle/ctrlsf.vim/plugin/ctrlsf.vim
+ 56: ~/.vimpkg/bundle/ctrlsf.vim/autoload/ctrlsf/backend.vim
+ 57: ~/.vimpkg/bundle/vim-textobj-lastpat/plugin/textobj/lastpat.vim
+ 58: ~/.vimpkg/bundle/vim-textobj-user/autoload/textobj/user.vim
+Error detected while processing function <SNR>99_map_if_not_mapped:
+line    3:
+E227: mapping already exists for 	
+Error detected while processing function <SNR>99_map_if_not_mapped:
+line    3:
+E227: mapping already exists for 	
+Error detected while processing function <SNR>99_map_if_not_mapped:
+line    3:
+E227: mapping already exists for 	
+NERDTree: No trees to mirror
+Error detected while processing function <SNR>7_BMRemove:
+line    9:
+E329: No menu "NERD_tree_1 (2)	~/Documents/person/git/learning"
+6 more lines
+No matching autocommands
+
+
+11 fewer lines
+9 more lines
+
+14 fewer lines
+13 more lines
+
+"问题.md" 
+"问题.md" 75L, 3780C
+No matching autocommands
+SignColumn     xxx term=standout ctermfg=11 ctermbg=8 guifg=#A6E22E guibg=#232526
+--- Signs ---
+
+No matching autocommands
+/tar
+
+/tar
+
+search hit BOTTOM, continuing at TOP
+/tar
+
+search hit BOTTOM, continuing at TOP
+search hit BOTTOM, continuing at TOP
+search hit BOTTOM, continuing at TOP
+/tar
+
+search hit BOTTOM, continuing at TOP
+/tar
+
+search hit BOTTOM, continuing at TOP
+search hit BOTTOM, continuing at TOP
+search hit BOTTOM, continuing at TOP
+/tar
+
+search hit BOTTOM, continuing at TOP
+/tar
+
+search hit BOTTOM, continuing at TOP
+search hit BOTTOM, continuing at TOP
+search hit BOTTOM, continuing at TOP
